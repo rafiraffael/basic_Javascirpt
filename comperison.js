@@ -1,0 +1,1 @@
+if (umur < 18) text = "terlalu muda untuk merokok";
