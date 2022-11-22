@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>hitung</title>
+</head>
+<body>
+    <button id="demo">Start</button>
+    <script>
+        alert("Luas Persegi Panjang");
+        var panjang  = prompt("Masukkan Panjang")
+        var lebar  = prompt("Masukkan Lebar")
+
+    window.onload = function() {
+    var btn = document.getElementById("demo");
+    btn.addEventListener("click", myFunction);
+
+    function myFunction() {
+        var hasil = alert(panjang * lebar)
+        btn.removeEventListener("click", myFunction);
+        return hasil
+        
+    }
+}
+</script>
+</body>
+</html>

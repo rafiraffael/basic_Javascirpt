@@ -1,0 +1,1 @@
+var kenaikanharga = parseInt(prompt('masukan kenaikan harga'))
